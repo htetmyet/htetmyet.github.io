@@ -1,12 +1,12 @@
-title:              Blog
-tagline:            on GitHub Pages
-description:        Content-focused template for a blog hosted on GitHub Pages.
-url:                http://YourName.github.io
+title:              Htet Myet -- In a nutshell
+tagline:            htet myet in a nutshell
+description:        Enhance 
+url:                http://HtetMyet.github.io
 
 author:
   name:             Your Name
-  url:              https://twitter.com/YourName
-  email:            YourName@gmail.com
+  url:              https://twitter.com/htetmyetlynn
+  email:            htetmyet@gmail.com
 
 # GitHub Pages / Jekyll configuration
 baseurl:            ''
