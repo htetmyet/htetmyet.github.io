@@ -341,6 +341,7 @@ tbody tr:nth-child(odd) th {
 .post {
   margin-bottom: 4em;
   font-family: "myanmar3regular";
+  text-align: "justify";
 }
 
 /* Blog post or page title */
