@@ -1,3 +1,7 @@
+---
+layout: page
+title: Publications
+---
 ![](../images/wakeupcall.jpg)
 
 You may have seen overloaded feeds of news about the inhumane terror attacks in
