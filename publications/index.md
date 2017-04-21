@@ -14,12 +14,10 @@ title: Publications
     10.1145/2987386.2987399](https://doi.org/10.1145/2987386.2987399). ACM, New
     York, NY, USA.
 
- 
-
-1.  Junho Choi, Chang Choi, Htet Myet Lynn, Pankoo Kim, “**Ontology Based APT
+2.  Junho Choi, Chang Choi, Htet Myet Lynn, Pankoo Kim, “**Ontology Based APT
     Attack Behavior Analysis in Cloud Computing**”, *In: Proceedings of the 2015
     10th International Conference on Broadband and Wireless Computing,
     Communication and Applications (BWCCA ‘15)*, Krakow, Poland, November 4-6,
-    2015. pp. 375-379. ISBN: 978-1-4673-8315-8. DOI: [10.1109/BWCCA.2015.69.
-    ](https://doi.org/10.1109/BWCCA.2015.6)IEEE Computer Society Washington, DC,
-    USA.
+    pp. 375-379. ISBN: 978-1-4673-8315-8. [DOI:
+    10.1109/BWCCA.2015.69](https://doi.org/10.1109/BWCCA.2015.6)[.](https://doi.org/10.1109/BWCCA.2015.6)IEEE
+    Computer Society Washington, DC, USA.
