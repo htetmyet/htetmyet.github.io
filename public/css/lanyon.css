@@ -36,10 +36,11 @@
  */
 
 /* Prevent scroll on narrow devices */
-
+@import url('stylesheet.css');
 html,
 body {
   overflow-x: hidden;
+  font-family: "myanmar3regular"
 }
 
 html {
