@@ -19,5 +19,5 @@ title: Publications
     10th International Conference on Broadband and Wireless Computing,
     Communication and Applications (BWCCA ‘15)*, Krakow, Poland, November 4-6,
     pp. 375-379. ISBN: 978-1-4673-8315-8. [DOI:
-    10.1109/BWCCA.2015.69](https://doi.org/10.1109/BWCCA.2015.6)[.](https://doi.org/10.1109/BWCCA.2015.6)IEEE
+    10.1109/BWCCA.2015.69](http://ieeexplore.ieee.org/document/7424851/)[.](https://doi.org/10.1109/BWCCA.2015.6)IEEE
     Computer Society Washington, DC, USA.
