@@ -1,17 +1,17 @@
 title:              Htet Myet
 tagline:            in a nutshell
-description:        Enhance 
+description:        Reconnect with nature
 url:                http://HtetMyet.github.io
 
 author:
-  name:             Your Name
+  name:             Htet Myet Lynn
   url:              https://twitter.com/htetmyetlynn
   email:            htetmyet@gmail.com
 
 # GitHub Pages / Jekyll configuration
 baseurl:            ''
 permalink:          /:title/
-paginate:           5
+paginate:           10
 defaults:
   -
     scope:

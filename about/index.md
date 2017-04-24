@@ -1,10 +1,17 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
-Hey there! This page is included as an example. Feel free to customize it for
-your own use.
+A Master of Computer Engineering with exceptional strengths in critical problem
+solving, machine learning, and data analysis.  A quiet achiever; calm and
+focused highly motivated and enthusiastic with a good knowledge of Artificial
+Intelligence and who specializes in Data Analysis, Machine Learning, and Natural
+Language Processing. Able to use own initiative and work as part of a team or
+individual under pressure to meet deadlines and objectives.
 
-Follow [instructions](<http://www.texts.io/support/0017/>) to publish your blog
-on GitHub Pages.
+Well adaptive to change, with an eagerness towards learning and expanding
+capabilities. Strong communication skills; able to interpret technical concepts
+for non-technical users.Enthusiastic learner, eager to meet new challengers.
+Energetic performer consistently recognized as passionate and hard working, with
+an upbeat, positive attitude.
