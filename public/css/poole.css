@@ -107,7 +107,7 @@ h4, h5, h6 {
 
 /* Body text */
 p {
-	font-family: 'Myanmar3';
+	font-family: "Myanmar3";
 	margin-top: 0;
 	margin-bottom: 1rem;
 }
@@ -334,7 +334,7 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 4em;
-  font-family: "myanmar3regular";
+  font-family: "Myanmar3";
   text-align: justify;
   text-justify: inter-word;
 }

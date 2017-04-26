@@ -45,8 +45,7 @@ body {
 }
 
 html {
-	font-family: 'Myanmar3';
-	
+	font-family: 'Myanmar3';	
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -315,7 +314,6 @@ a.sidebar-nav-item:focus {
 .page,
 .post {
   margin-bottom: 4em;
-  font-family: "Myanmar3";
   text-align: justify;
   text-justify: inter-word;
 }
