@@ -5,6 +5,14 @@
 	font-family: 'Myanmar3';
 	src: url('mm3-multi-os-webfont.eot?') format('embedded-opentype');
 	}
+
+@font-face {
+	font-family: 'MyanmarSabae';
+	src: url('MyanmarSabae.eot?') format('embedded-opentype'),
+		 url('MyanmarSabae.ttf') format('truetype'),
+		 url('MyanmarSabae.woff') format('woff'),
+		 url('MyanmarSabae..svg#MyanmarSabae') format('svg'),
+}
 	
 @font-face {
   font-family: 'Myanmar3';
