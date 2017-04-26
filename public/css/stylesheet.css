@@ -11,7 +11,7 @@
 	src: url('MyanmarSabae.eot?') format('embedded-opentype'),
 		 url('MyanmarSabae.ttf') format('truetype'),
 		 url('MyanmarSabae.woff') format('woff'),
-		 url('MyanmarSabae..svg#MyanmarSabae') format('svg'),
+		 url('MyanmarSabae.svg#MyanmarSabae') format('svg');
 }
 	
 @font-face {
