@@ -158,13 +158,13 @@ Neural network တစ်ခုအား လေ့ကျင့်သင်ကြ�
 neural network အတွင်းရှိ weight ဂုဏ်သတ္တိများကို ညှိနှိုင်းဖော်ထုတ်စေခြင်းဖြစ်သည်။ ဤကဲ့သို့
 လေ့ကျင့်သင်ကြားရာတွင် အ​ေရးပါဆုုံးသော လုပ်ဆောင်ချက် ၂မျိုး ပါဝင်နေပြန်သည်။ ၄င်းတို့မှာ
 
-**Forward propagation** - Neural network အတွင်း input data များအား  Random
-weight များဖြင့် ရှေးဦးစွာ ပေါင်းစပ်တွက်ချက်၍ output data ရှာဖွေခြင်းဖြစ်သည်။
-Network ၏ရှေ့မှနောက်သို့ **ကျပန်း weight** များကို အသုံးပြု၍ တွက်ချက်သွားခြင်းဖြစ်သည်။
+**Forward propagation** - Neural network အတွင်း input data များအား Random weight
+များဖြင့် ရှေးဦးစွာ ပေါင်းစပ်တွက်ချက်၍ output data ရှာဖွေခြင်းဖြစ်သည်။ Network
+၏ရှေ့မှနောက်သို့ **ကျပန်း weight** များကို အသုံးပြု၍ တွက်ချက်သွားခြင်းဖြစ်သည်။
 
  
 
-**Back propagation - **Forward propagation တွင် ရှေ့မှနောက်သို့ input data ကနေတဆင့်
+**Back propagation -** Forward propagation တွင် ရှေ့မှနောက်သို့ input data ကနေတဆင့်
 ကျပန်း weight များ အသုံးပြု၍ ရရှိသော output data နှင့် မူရင်းအဖြေမှန်ဖြစ်သော output
 data တို့အား အဖြေညှိ၍ အဖြေနှစ်ခု၏ ကွာခြားချက်ကို (**Margin of error**)
 နည်းသထက်နည်းအောင် နောက်မှ​ေရှ့သို့ error margin အနည်းဆုံးဖြစ်စေမည့် weight များကို
