@@ -107,7 +107,7 @@ h4, h5, h6 {
 
 /* Body text */
 p {
-	font-family: 'MyanmarSabae';
+	font-family: 'Myanmar3';
 	margin-top: 0;
 	margin-bottom: 1rem;
 }
@@ -335,7 +335,8 @@ tbody tr:nth-child(odd) th {
 .post {
   margin-bottom: 4em;
   font-family: "myanmar3regular";
-  text-align: "justify";
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Blog post or page title */
