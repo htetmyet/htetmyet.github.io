@@ -5,6 +5,19 @@ title: Publications
 
  
 
+Journal
+-------
+
+1.  Htet Myet Lynn, Chang Choi, Pankoo Kim, “**An Improved Method of Automatic
+    Text Summarization for Web Contents using Lexical Chain with Semantic
+    Related Terms**”, Soft Comput (2017).
+    [DOI:10.1007/s00500-017-2612-9](http://link.springer.com/article/10.1007/s00500-017-2612-9)
+
+ 
+
+Conference
+----------
+
 1.  Htet Myet Lynn, Chang Choi, Junho Choi, Juhyun Shin, Pankoo Kim, “**The
     Method of Semi-supervised Automatic Keyword Extraction for Web Documents
     using Transition Probability Distribution Generator**”, *In: Proceedings of
