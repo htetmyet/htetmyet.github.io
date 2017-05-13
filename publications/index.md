@@ -31,6 +31,13 @@ Conference
     Attack Behavior Analysis in Cloud Computing**”, *In: Proceedings of the 2015
     10th International Conference on Broadband and Wireless Computing,
     Communication and Applications (BWCCA ‘15)*, Krakow, Poland, November 4-6,
-    pp. 375-379. ISBN: 978-1-4673-8315-8. [DOI:
+    2015. pp. 375-379. ISBN: 978-1-4673-8315-8. [DOI:
     10.1109/BWCCA.2015.69](http://ieeexplore.ieee.org/document/7424851/)[.](https://doi.org/10.1109/BWCCA.2015.6)IEEE
     Computer Society Washington, DC, USA.
+
+3.  Chang Choi, Junho Choi, Htet Myet Lynn, Pankoo Kim, “**Travel Destination
+    Recommendation Based on Probabilistic Spatio-temporal Inference**”, *In:
+    Proceedings of the 4th EAI International Conference on Context-Aware Systems
+    and Applications (ICCASA ‘15)*, Vung Tau, Vietnam, November 26-27, 2015. pp.
+    94-100. [DOI:
+    10.1007/978-3-319-29236-6_10](https://link.springer.com/chapter/10.1007/978-3-319-29236-6_10).
