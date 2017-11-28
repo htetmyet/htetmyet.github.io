@@ -20,10 +20,8 @@ Conference
 
 1.  **Htet Myet Lynn**, Eunji Lee, Chang Choi, Pankoo Kim, “**SwiftRank: An
     Unsupervised Statistical Approach of Keyword and Salient Sentence Extraction
-    for Individual Documents”, **In: Proceedings of the 8th International
-    Conference on Emerging Ubiquitous Systems and Pervasive Networks (EUSPN
-    2017) / The 7th International Conference on Current and Future Trends of
-    Information and Communication Technologies in Healthcare (ICTH-2017), Lund,
+    for Individual Documents**”, *In: Proceedings of the 2nd Edition of the
+    International Workshop DaMIS - Data Mining on IoT Systems (DaMIS)*, Lund,
     Sweden, September 18-20, 2017. Vol. 113, pp. 472-477. DOI:
     [10.1016/j.procs.2017.08.305](https://doi.org/10.1016/j.procs.2017.08.305).
     PROCS111589.
