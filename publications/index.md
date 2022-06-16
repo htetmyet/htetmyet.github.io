@@ -8,10 +8,10 @@ title: Publications
 Journal
 -------
 
-1. **Htet Myet Lynn**, Sung Bum Pan, Pankoo Kim, "**A Deep Bidirectional GRU Network Model for Biometric Electrocardiogram Classification Based on Recurrent Neural Networks**", IEEE Access, vol. 7, pp. 145395-145405, 2019.
-   
-   
-2. **Htet Myet Lynn**, Chang Choi, Pankoo Kim, “**An Improved Method of
+1. **Htet Myet Lynn**, Pankoo Kim, Sung Bum Pan, "**Data Independent Acquisition based bi-directional**
+   **Deep Networks for Biometric ECG Authentication**", Applied Sciences. vol. 11, no 3, 2021.
+2. **Htet Myet Lynn**, Sung Bum Pan, Pankoo Kim, "**A Deep Bidirectional GRU Network Model for Biometric Electrocardiogram Classification Based on Recurrent Neural Networks**", IEEE Access, vol. 7, pp. 145395-145405, 2019.
+3. **Htet Myet Lynn**, Chang Choi, Pankoo Kim, “**An Improved Method of
    Automatic Text Summarization for Web Contents using Lexical Chain with
    Semantic Related Terms**”, Soft Comput (2017).
    [DOI:10.1007/s00500-017-2612-9](http://link.springer.com/article/10.1007/s00500-017-2612-9)
@@ -65,5 +65,4 @@ Conference
    Context-Aware Systems and Applications (ICCASA ‘15)*, Vung Tau, Vietnam,
    November 26-27, 2015. pp. 94-100. [DOI:
    10.1007/978-3-319-29236-6_10](https://link.springer.com/chapter/10.1007/978-3-319-29236-6_10).
-
 
