@@ -2,34 +2,34 @@
 
 ![](../images/pi5-home-vps-setup.svg)
 
-I didn’t plan to turn a Raspberry Pi into a mini hosting business.
-I just wanted to stop burning money on cloud bills for small apps.
+Raspberry Pi တစ်လုံးကို mini hosting business တစ်ခုလို အသုံးချမယ်လို့ စကတည်းက မစဉ်းစားထားခဲ့ပါဘူး။
+ကျွန်တော် လိုချင်ခဲ့တာက app အသေးလေးတွေ အတွက် cloud bill များတာကို လျှော့ချချင်တာပဲ ဖြစ်ပါတယ်။
 
-So I started with one Raspberry Pi 5 (8 GB RAM) on my desk, an SSD, and a weekend mindset of: "let me see how far this can go."
+ဒါကြောင့် Raspberry Pi 5 (8 GB RAM) တစ်လုံး၊ SSD တစ်လုံးနဲ့ "ဘယ်လောက်ထိ သုံးလို့ရမလဲ စမ်းကြည့်မယ်" ဆိုတဲ့ weekend mindset နဲ့ စခဲ့ပါတယ်။
 
-It went farther than I expected.
+မျှော်မှန်းထားတာထက် အများကြီး အလုပ်ဖြစ်လာခဲ့ပါတယ်။
 
-Today this same home VPS runs:
+အခုတော့ ဒီ home VPS တစ်ခုတည်းကနေ ဒီလို workload တွေကို run နေပါတယ်:
 
-- my personal web apps
-- lightweight AI/ML apps
-- a home media server
-- CRM and sales tools for several SME clients
+- ကျွန်တော့် personal web apps တွေ
+- lightweight AI/ML apps တွေ
+- home media server
+- SME client အချို့အတွက် CRM နဲ့ sales management tools
 
-And that stack now gives me subscription side income every month.
+ပြီးတော့ ဒီ stack ကနေ လစဉ် subscription side income တောင် ရနေပါပြီ။
 
 ## The Moment I Decided to Build It
 
-Every time I launched a tiny product, I repeated the same pattern:
+product အသေးလေးတစ်ခု စတိုင်း pattern တစ်ခုကို ထပ်တလဲလဲ ကြုံရတယ်:
 
-- spin up cloud resources
-- pay for convenience
-- underuse most of it
+- cloud resources တွေ spin up လုပ်
+- convenience အတွက် ပိုကျသင့်
+- resource တွေအများစု underused ဖြစ်
 
-I wanted a setup where I could own the system and keep monthly cost predictable.
-Not "free," just predictable.
+ကျွန်တော်လိုချင်တာက system ကို ကိုယ်တိုင်ထိန်းချုပ်လို့ရပြီး monthly cost ကို predictable ဖြစ်နေမယ့် setup ပါ။
+"free" မဟုတ်ရင်တောင် predictable ဖြစ်ရမယ်ဆိုတာပါ။
 
-That is why I built a personal VPS at home and treated it seriously from day one.
+ဒါကြောင့် personal VPS ကို အိမ်မှာတင်စပြီး day one ကတည်းက serious production mindset နဲ့ ကိုင်တွယ်ခဲ့ပါတယ်။
 
 ## My Hardware (Simple but Reliable)
 
@@ -37,88 +37,88 @@ That is why I built a personal VPS at home and treated it seriously from day one
 - 8 GB RAM
 - SSD over USB 3
 - broadband connection
-- UPS for power stability
+- power stability အတွက် UPS
 - active cooling case
 
-Nothing exotic.
-The real difference is operational discipline, not expensive hardware.
+အထူးအဆန်း hardware မဟုတ်ပါဘူး။
+တကယ်ကွာခြားစေတာက hardware စျေးကြီးတာမဟုတ်ဘဲ operational discipline ပါ။
 
 ## What I Actually Run on It
 
 ### Personal Web Apps
 
-These are my experiments and utility products: small dashboards, internal tools, landing pages, and client prototypes.
+ဒီပိုင်းကတော့ ကျွန်တော့် experiments နဲ့ utility products တွေပါ: dashboard အသေးတွေ၊ internal tools တွေ၊ landing pages တွေ၊ client prototypes တွေ။
 
-I keep every app isolated in containers, with separate env vars and logs.
-If one app breaks, the others keep running.
+app တစ်ခုစီကို container isolation နဲ့ သီးသန့် run ထားပါတယ်၊ env vars နဲ့ logs တွေလည်း သီးခြားထားပါတယ်။
+app တစ်ခု error တက်ရင်တောင် တခြား app တွေ ဆက် run နိုင်ပါတယ်။
 
 ### AI/ML Apps
 
 ![](../images/pi5-home-vps-architecture.svg)
 
-I do not train giant models here.
-This box is for practical AI work:
+ဒီစက်ပေါ်မှာ giant model training မလုပ်ပါဘူး။
+ဒီ box ကို practical AI use case တွေအတွက် သုံးထားပါတယ်:
 
-- document parsing and workflow automation
-- embeddings + semantic search for small knowledge bases
+- document parsing နဲ့ workflow automation
+- knowledge base အသေးအတွက် embeddings + semantic search
 - lightweight local model inference
-- scheduled jobs and integrations
+- scheduled jobs နဲ့ integrations
 
-The Pi is perfect when I optimize for useful outcomes, not benchmark scores.
+benchmark score ထက် useful outcomes ကို ဦးစားပေးတဲ့အခါ Pi က တကယ်အလုပ်ဖြစ်ပါတယ်။
 
 ### Home Media Server
 
-This started as a personal convenience project.
-Now it is my testbed for monitoring, access control, and backup routines before I apply the same ops habits to client apps.
+အစမှာ personal convenience project အဖြစ် စခဲ့တာပါ။
+အခုတော့ monitoring, access control, backup routines တွေကို client apps မှာ apply မလုပ်ခင် စမ်းသပ်တဲ့ testbed ဖြစ်လာပါပြီ။
 
 ### SME CRM + Sales Systems
 
-This became the most interesting part.
+ဒီပိုင်းက အထူးစိတ်ဝင်စားဖို့ကောင်းတဲ့ အပိုင်းဖြစ်လာပါတယ်။
 
-A few SME owners asked for affordable CRM and sales tracking.
-They didn’t need enterprise complexity.
-They needed clarity:
+SME owner အချို့က affordable CRM နဲ့ sales tracking system တောင်းလာကြတယ်။
+enterprise-level complexity မလိုဘူး။
+သူတို့လိုတာက clarity ပဲ:
 
-- customer records in one place
-- deal stage visibility
-- invoice and follow-up tracking
-- simple reports they can trust
+- customer records ကို တစ်နေရာတည်းမှာ စုစည်းထားနိုင်ဖို့
+- deal stage visibility ရှိဖို့
+- invoice နဲ့ follow-up tracking လုပ်လို့ရဖို့
+- ယုံကြည်လို့ရတဲ့ simple reports ရဖို့
 
-That problem fit this setup very well.
+ဒီလို problem က ဒီ setup နဲ့ တော်တော်ကို fit ဖြစ်ပါတယ်။
 
 ## How I Handle Multi-Client Hosting
 
-I keep things boring and structured:
+အလုပ်ဖြစ်ပြီး ထိန်းချုပ်ရလွယ်တဲ့ structured setup နဲ့ပဲ သွားပါတယ်:
 
-- one reverse proxy as the front door
-- separate containers per project/client
-- isolated data boundaries (DB/schema level)
-- HTTPS for all domains
-- daily backups with retention
+- front door အဖြစ် reverse proxy တစ်ခု
+- project/client တိုင်းအတွက် separate containers
+- data isolation (DB/schema level)
+- domain အားလုံးအတွက် HTTPS
+- retention rule ပါတဲ့ daily backups
 
-It is not flashy architecture.
-It is architecture I can maintain at 2 AM.
+flashy architecture မဟုတ်ပါဘူး။
+ဒါပေမယ့် မနက် ၂ နာရီ incident ဖြစ်လာရင်တောင် ကျွန်တော် maintain လုပ်နိုင်တဲ့ architecture ပါ။
 
 ## Running on 8 GB RAM: My Rules
 
-I survive on constraints.
+constraint နဲ့ပဲ ရှင်သန်ရတာပါ။
 
-- avoid heavy frameworks where simple stacks work
-- set memory limits for containers
-- offload heavy/background work to queues
-- cache aggressively
-- rotate logs and clean storage on schedule
-- watch resource usage before it becomes an incident
+- simple stack နဲ့ရတဲ့နေရာမှာ heavy framework မသုံး
+- containers တွေ memory limit သတ်မှတ်
+- heavy/background work တွေကို queue နဲ့ ခွဲပေး
+- caching ကို aggressive လုပ်
+- log rotation နဲ့ storage cleanup ကို schedule နဲ့ run
+- incident မဖြစ်ခင် resource usage ကိုအမြဲကြည့်
 
-When hardware is limited, planning is performance.
+hardware limitation ရှိတဲ့အခါ planning ပဲ performance ဖြစ်လာတယ်။
 
 ## Reliability and Security (Non-Negotiable)
 
-If people pay subscriptions, I can’t run this like a hobby.
+subscription ပေးပြီး သုံးနေတဲ့ client ရှိလာရင် hobby project လို run လို့ မရတော့ပါဘူး။
 
 Reliability baseline:
 
-- uptime checks and alerts
+- uptime checks နဲ့ alerts
 - auto-restart policies
 - encrypted backups
 - off-device backup copies
@@ -130,43 +130,43 @@ Security baseline:
 - brute-force protection
 - automatic patching
 - least-privilege access
-- no secrets in git
+- git ထဲ secrets မထည့်
 
-These are small habits that prevent expensive mistakes.
+ဒီ habits အသေးလေးတွေက cost ကြီးတဲ့ mistakes တွေကို ကာကွယ်ပေးပါတယ်။
 
 ## Side Income: What I Learned
 
 ![](../images/pi5-home-vps-side-income.svg)
 
-I package services as monthly subscriptions:
+service ကို monthly subscription packages အဖြစ်ပဲ ပေးပါတယ်:
 
 - hosting
 - maintenance
 - backups
 - minor support
-- upgrade path when they grow
+- business ကြီးလာရင် upgrade path
 
-The lesson: clients don’t care about the Raspberry Pi model.
-They care that their business system is up, safe, and understandable.
+ကျွန်တော်သင်ယူမိတာက client တွေက Raspberry Pi model ဘာလဲဆိုတာကို စိတ်မဝင်စားကြဘူး။
+သူတို့စိတ်ဝင်စားတာက သူတို့ business system က stable ဖြစ်မဖြစ်၊ secure ဖြစ်မဖြစ်၊ နားလည်ရလွယ်မလွယ်ပဲ ဖြစ်ပါတယ်။
 
-I’m not selling a server.
-I’m selling continuity.
+ကျွန်တော်ရောင်းတာ server မဟုတ်ပါဘူး။
+continuity ကို ရောင်းတာပါ။
 
 ## Honest Limits
 
-This setup is not for:
+ဒီ setup က အောက်ပါ use case တွေအတွက် မသင့်တော်ပါဘူး:
 
 - high-concurrency consumer platforms
 - compute-heavy AI training
 - strict enterprise compliance workloads
 
-But for personal products and focused SME operational software, it is more than enough.
+ဒါပေမယ့် personal products နဲ့ focused SME operational software အတွက်တော့ လုံလောက်သလို တန်ဖိုးလည်းကောင်းပါတယ်။
 
 ## Final Thought
 
-This project started with curiosity and cost control.
-Now it is part lab, part production, part side business.
+ဒီ project က curiosity နဲ့ cost control လိုချင်မှုကနေ စခဲ့တာပါ။
+အခုတော့ part lab, part production, part side business ဖြစ်လာပါပြီ။
 
-One Raspberry Pi 5 (8 GB).
-A lot of careful decisions.
-Real value for real users.
+Raspberry Pi 5 (8 GB) တစ်လုံး။
+သေချာတဲ့ ဆုံးဖြတ်ချက်များစွာ။
+real users အတွက် real value.
