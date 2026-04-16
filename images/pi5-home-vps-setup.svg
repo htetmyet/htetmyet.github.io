@@ -1,0 +1,38 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0b1220" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="680" fill="url(#bg)" />
+  <rect x="70" y="70" width="1060" height="540" rx="22" fill="url(#card)" stroke="#334155" stroke-width="2" />
+
+  <text x="130" y="150" fill="#e2e8f0" font-size="44" font-family="Georgia, serif">Home VPS on Raspberry Pi 5</text>
+  <text x="130" y="194" fill="#94a3b8" font-size="24" font-family="Arial, sans-serif">8GB RAM • SSD • UPS • Docker • Reverse Proxy</text>
+
+  <rect x="130" y="250" width="290" height="260" rx="14" fill="#0f766e" opacity="0.22" />
+  <rect x="455" y="250" width="290" height="260" rx="14" fill="#0ea5e9" opacity="0.20" />
+  <rect x="780" y="250" width="290" height="260" rx="14" fill="#f59e0b" opacity="0.20" />
+
+  <text x="160" y="305" fill="#ccfbf1" font-size="28" font-family="Arial, sans-serif">Personal Apps</text>
+  <text x="160" y="346" fill="#e2e8f0" font-size="20" font-family="Arial, sans-serif">• dashboards</text>
+  <text x="160" y="378" fill="#e2e8f0" font-size="20" font-family="Arial, sans-serif">• tools</text>
+  <text x="160" y="410" fill="#e2e8f0" font-size="20" font-family="Arial, sans-serif">• landing pages</text>
+
+  <text x="485" y="305" fill="#dbeafe" font-size="28" font-family="Arial, sans-serif">AI/ML Workloads</text>
+  <text x="485" y="346" fill="#e2e8f0" font-size="20" font-family="Arial, sans-serif">• inference</text>
+  <text x="485" y="378" fill="#e2e8f0" font-size="20" font-family="Arial, sans-serif">• embeddings</text>
+  <text x="485" y="410" fill="#e2e8f0" font-size="20" font-family="Arial, sans-serif">• automation jobs</text>
+
+  <text x="810" y="305" fill="#fef3c7" font-size="28" font-family="Arial, sans-serif">SME Systems</text>
+  <text x="810" y="346" fill="#e2e8f0" font-size="20" font-family="Arial, sans-serif">• CRM</text>
+  <text x="810" y="378" fill="#e2e8f0" font-size="20" font-family="Arial, sans-serif">• sales tracking</text>
+  <text x="810" y="410" fill="#e2e8f0" font-size="20" font-family="Arial, sans-serif">• subscription support</text>
+
+  <text x="130" y="570" fill="#64748b" font-size="18" font-family="Arial, sans-serif">Small hardware. Real operations.</text>
+</svg>

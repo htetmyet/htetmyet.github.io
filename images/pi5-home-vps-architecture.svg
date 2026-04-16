@@ -1,0 +1,29 @@
+<svg width="1200" height="740" viewBox="0 0 1200 740" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="740" fill="#f8fafc"/>
+  <text x="80" y="70" fill="#0f172a" font-size="38" font-family="Georgia, serif">My Home VPS Architecture</text>
+
+  <rect x="80" y="120" width="1040" height="120" rx="14" fill="#e2e8f0" stroke="#94a3b8"/>
+  <text x="110" y="176" fill="#0f172a" font-size="28" font-family="Arial, sans-serif">Internet + Domains</text>
+  <text x="110" y="212" fill="#334155" font-size="20" font-family="Arial, sans-serif">HTTPS routing to a single reverse proxy</text>
+
+  <line x1="600" y1="240" x2="600" y2="290" stroke="#475569" stroke-width="3"/>
+
+  <rect x="260" y="290" width="680" height="120" rx="14" fill="#dbeafe" stroke="#60a5fa"/>
+  <text x="300" y="346" fill="#1e3a8a" font-size="30" font-family="Arial, sans-serif">Reverse Proxy + TLS + Access Logs</text>
+
+  <line x1="600" y1="410" x2="600" y2="460" stroke="#475569" stroke-width="3"/>
+
+  <rect x="80" y="460" width="300" height="170" rx="14" fill="#dcfce7" stroke="#4ade80"/>
+  <text x="108" y="516" fill="#14532d" font-size="26" font-family="Arial, sans-serif">Personal Apps</text>
+  <text x="108" y="548" fill="#166534" font-size="18" font-family="Arial, sans-serif">Containerized web tools</text>
+
+  <rect x="450" y="460" width="300" height="170" rx="14" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="478" y="516" fill="#78350f" font-size="26" font-family="Arial, sans-serif">AI/ML Apps</text>
+  <text x="478" y="548" fill="#92400e" font-size="18" font-family="Arial, sans-serif">Inference + pipelines</text>
+
+  <rect x="820" y="460" width="300" height="170" rx="14" fill="#fee2e2" stroke="#f87171"/>
+  <text x="848" y="516" fill="#7f1d1d" font-size="26" font-family="Arial, sans-serif">SME CRM/Sales</text>
+  <text x="848" y="548" fill="#991b1b" font-size="18" font-family="Arial, sans-serif">Isolated clients + backups</text>
+
+  <text x="80" y="690" fill="#475569" font-size="18" font-family="Arial, sans-serif">Host: Raspberry Pi 5 (8GB RAM), SSD over USB3, UPS, scheduled backups, monitoring alerts</text>
+</svg>
