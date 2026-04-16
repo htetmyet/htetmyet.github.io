@@ -5,19 +5,18 @@ title: Home
 
 <div class="posts">
   {% for post in paginator.posts %}
-  <article class="post post-card">
-    <h2 class="post-title">
+  <div class="post">
+    <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
-    </h2>
+    </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    <p>{{ post.excerpt | strip_html | truncatewords: 36 }}</p>
-    <p><a class="read-more" href="{{ site.baseurl }}{{ post.url }}">Read more &rarr;</a></p>
+    {{ post.content | strip_html | truncatewords: 50 }}
 
-  </article>
+  </div>
   {% endfor %}
 </div>
 
@@ -37,3 +36,4 @@ title: Home
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
+
